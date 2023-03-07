@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    border: 1px solid black;
+    background-color: #d9e8fb;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+
+.menu {
+    position: relative;
+}
+
+#container ul li {
+    display: block;
+}
+
+.sub-menu {
+    position: absolute;
+    border: 1px solid black;
+    left: 180px;
+    top: 0px;
+    width: 150px;
+    height: auto;
+    /* display: none; */
+}
+
+.home {
+    border: 1px solid yellow;
+    background-color: #fff2cd;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+}
+
+.users {
+    border: 1px solid yellow;
+    background-color: #fff2cd;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+}
+
+.products {
+    border: 1px solid yellow;
+    background-color: #fff2cd;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%);
+}
+
+.orders {
+    border: 1px solid yellow;
+    background-color: #fff2cd;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50%);
+}
+
+.customers {
+    border: 1px solid black;
+}
+
+.admins {
+    border: 1px solid black;
+}
+
+.vip {
+    border: 1px solid black;
+}
+
+.my-staffs {
+    border: 1px solid black;
+}
