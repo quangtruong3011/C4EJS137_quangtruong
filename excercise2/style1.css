@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 } */
-body{
+body {
     background-color: #dfeef0;
 }
-img{
+
+img {
     clip-path: circle();
     width: 250px;
     height: 150px;
 }
-h1,h3{
+
+h1,
+h3 {
     color: #709294;
 }
-.line{
+
+.line {
     background-color: #dfeef0;
     border: 3px dashed #709294;
     width: 50%;
