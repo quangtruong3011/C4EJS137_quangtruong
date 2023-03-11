@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    color: black;
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-left {
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    display: flex;
+}
+.sec-1{
+    
+}
+.sec-2{
+    color: black;
+}
+.item-2{
+    color: black;
+}
+
+.footer-right {
+    position: absolute;
+    width: 50%;
+    right: 20px;
+}
+
+.explain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+.fa-star {
+    color: #fdd05b;
+}
+
+.fa-heart {
+    color: #fc446a;
+}
+
+.fa-patreon {
+    color: #fd7054;
+}
+
+.fa-plug {
+    color: #438ec8;
+}
+
+.fa-bookmark {
+    color: #adf578;
+}
+
+.fa-rss {
+    color: #e86c24;
+}
+
+.fa-medal {
+    color: #08d7bd;
+}
+
+.fa-rocket-launch {
+    color: #47c78e;
+}
+
+.fa-certificate {
+    color: #fee088;
+}
+
+.fa-arrow-right-arrow-left {
+    color: #6b5192;
+}
+
+.title {
+    color: black;
+}
+
+.item-1 {
+    margin: 5px;
+}
