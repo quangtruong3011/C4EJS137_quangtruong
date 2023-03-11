@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 120px;
+    height: 28px;
+}
+
+.container {
+    font-family: 'Blinker';
+    position: relative;
+    width: 100%;
+    /* width: 1000px; */
+}
+
+.header-left {
+    position: absolute;
+    left: 0px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 55%;
+    height: 30px;
+}
+
+.header-right {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 30px;
+}
+
+.item {
+    margin: 5px;
+}
+
+.item-1 {
+    padding: 10px;
+}
+
+.github {
+    font-size: 30px;
+    padding-right: 10px;
+    color: #333333;
+}
+
+.twitter {
+    font-size: 30px;
+    padding-right: 30px;
+    color: #55acee;
+}
+
+.download-twitter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #00d1b2;
+    color: white;
+
+}
+
+.sponor {
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #fdedf6;
+    color: #e950ab;
+}
+
+.heart {
+    color: #f14668;
+}
+
+.star {
+    color: #ffd257;
+}
+
+.play-video {
+    color: #48c78e;
+}
+
+.book {
+    color: #00d1b2;
+}
