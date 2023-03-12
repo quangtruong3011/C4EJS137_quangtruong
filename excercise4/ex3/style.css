@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.avt {
+    border-radius: 50%;
+    text-align: center;
+}
+
+img {
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+}
+
+.avt-name-id {
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin: 10px 0px 0px 10px;
+}
+
+.name-id {
+    display: grid;
+}
+
+.comment {
+    width: auto;
+    height: 75px;
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

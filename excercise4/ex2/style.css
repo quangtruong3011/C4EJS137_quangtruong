@@ -8,8 +8,8 @@
     width: 100%;
     position: relative;
     color: black;
-    display: inline-block;
-    justify-content: flex-start;
+    /* display: inline-block;
+    justify-content: flex-start; */
 }
 
 a {
